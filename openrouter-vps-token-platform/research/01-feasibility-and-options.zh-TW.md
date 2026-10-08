@@ -1,3 +1,5 @@
+[English](01-feasibility-and-options.md) | **繁體中文**
+
 # OpenRouter 用量平台的可行性與快速方案
 
 研究日期：2026-10-09。預設需求為 API 用量平台：客戶註冊、取得 Key、購買平台額度，再使用 OpenAI 相容介面。VPS 負責驗證、代理與帳務，模型推論由上游處理，因此這條路線不需要在 VPS 配置 GPU。

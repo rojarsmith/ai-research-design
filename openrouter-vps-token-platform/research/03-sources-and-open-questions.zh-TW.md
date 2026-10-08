@@ -1,3 +1,5 @@
+[English](03-sources-and-open-questions.md) | **繁體中文**
+
 # 官方來源與上線前待確認事項
 
 查閱日期：2026-10-09。來源包含現行官方文件與主分支原始碼；`main` 會改變，實際部署時須固定版本並保存相應 LICENSE、NOTICE、配置與映像 digest。
