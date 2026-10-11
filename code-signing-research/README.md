@@ -2,6 +2,8 @@
 
 # SSL.com OV Code Signing Organization Validation
 
+See also [OV prices, ten purchasing options, short terms, and provider reviews](pricing-and-providers.md), checked October 11, 2026.
+
 Research date: October 11, 2026 (Asia/Taipei). This request concerns EMERGING DISPLAY TECHNOLOGIES CORP., Chinese registered name 全台晶像股份有限公司, Taiwan stock code 3038, Unified Business Number 89261652. The applicant confirms acting on behalf of the company. The scope is the three pending document categories and subsequent callback.
 
 Three PDFs organize registration and contact evidence for SSL.com's review. The legal-existence PDF also includes the unchanged seven-page English Articles published on the company website. Covers and API extracts are applicant-prepared with source links and embedded original JSON, not government-issued certificates, D&B reports or signed authorization. SSL.com decides whether further formal documents are required.
