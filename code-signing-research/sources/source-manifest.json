@@ -1,0 +1,30 @@
+[
+  {
+    "file": "twse-listed-company-basic-information.json",
+    "url": "https://openapi.twse.com.tw/v1/opendata/t187ap03_L",
+    "retrieved_date_taipei": "2026-10-11",
+    "sha256": "97fe4e558c5e6dd7dbc4d4f6e9ec9c49d86b8051dcf8878e944d4fa83e18bd81",
+    "content_type": "application/json"
+  },
+  {
+    "file": "twse-listed-company-basic-information.csv",
+    "url": "https://mopsfin.twse.com.tw/opendata/t187ap03_L.csv",
+    "retrieved_date_taipei": "2026-10-11",
+    "sha256": "d819d7e436d2ffe032f5850625381f6770083bcb4d9ad16272fbc030503f5979",
+    "content_type": "text/csv"
+  },
+  {
+    "file": "moea-company-89261652.json",
+    "url": "https://data.gcis.nat.gov.tw/od/data/api/5F64D864-61CB-4D0D-8AD9-492047CC1EA6?%24format=json&%24filter=Business_Accounting_NO+eq+89261652&%24skip=0&%24top=50",
+    "retrieved_date_taipei": "2026-10-11",
+    "sha256": "96d073899a81b42e0e060148582861a5e891307b67d4cc7fb514db09ca92eeff",
+    "content_type": "application/json;charset=UTF-8"
+  },
+  {
+    "file": "edt-articles-of-incorporation-en-original.pdf",
+    "url": "https://www.edtc.com/wp-content/uploads/2025/08/Articles-of-Incorporation.pdf",
+    "retrieved_date_taipei": "2026-10-11",
+    "sha256": "4830156a4630ad46e5c147b8bbd6539123b2dd6696911f0a9d0647f09e7a4b35",
+    "content_type": "application/pdf"
+  }
+]

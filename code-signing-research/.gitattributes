@@ -1,0 +1,4 @@
+# Preserve downloaded source bytes so the source manifest hashes survive cloning.
+sources/twse-listed-company-basic-information.* binary
+sources/moea-company-89261652.json binary
+sources/edt-articles-of-incorporation-en-original.pdf binary

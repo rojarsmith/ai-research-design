@@ -1,0 +1,18 @@
+{
+  "checked_date_taipei": "2026-10-11",
+  "pdf_pages": {
+    "01-legal-existence-public-record.pdf": 10,
+    "02-physical-existence-address-record.pdf": 2,
+    "03-order-authorization-contact-record.pdf": 2,
+    "04-order-authorization-unsigned-template.pdf": 1
+  },
+  "rendered_visual_review": "passed: all 15 final pages, original Articles pages included",
+  "original_articles_page_content_preserved": true,
+  "original_articles_attachment_bytes_preserved": true,
+  "download_sha256_verified": true,
+  "twse_json_csv_address_and_phone_match": true,
+  "twse_json_issue_date": "1151010",
+  "twse_csv_issue_date": "1151011",
+  "order_details_compared": false,
+  "uploaded_to_ssl_com": false
+}
