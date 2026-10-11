@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.20)
+project(MiniEditorCore LANGUAGES CXX)
+
+add_library(editor_core core.cpp)
+target_include_directories(editor_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_compile_features(editor_core PUBLIC cxx_std_20)
+set_target_properties(editor_core PROPERTIES CXX_EXTENSIONS OFF)
+if(MSVC)
+    target_compile_options(editor_core PUBLIC /utf-8 PRIVATE /W4 /permissive-)
+else()
+    target_compile_options(editor_core PRIVATE -Wall -Wextra -Wpedantic)
+endif()
+
+add_executable(editor_demo demo.cpp)
+target_link_libraries(editor_demo PRIVATE editor_core)
+
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(editor_tests tests.cpp)
+    target_link_libraries(editor_tests PRIVATE editor_core)
+    add_test(NAME editor_core_workflows COMMAND editor_tests)
+endif()

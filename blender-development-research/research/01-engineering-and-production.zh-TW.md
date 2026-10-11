@@ -4,6 +4,8 @@
 
 研究日期：2026 年 10 月 11 日。
 
+若要從理解 Blender 進一步走向自行實作，可接著閱讀[工程架構](03-build-large-3d-software.zh-TW.md)、[C++ 學習路線](04-cpp-learning-roadmap.zh-TW.md)與[原始碼導讀](05-reading-blender-source.zh-TW.md)，並執行[小型核心範例](../examples/mini-editor-core/README.zh-TW.md)。
+
 Blender 能支援長期製作，除了畫面生成能力，也依賴場景資料、工具操作、外掛、資產連結與版本維護能一起運作。以下依官方開發文件與 Studio 的製作記錄，說明這些機制如何支撐產品。
 
 ## 場景資料是各功能共同運作的基礎

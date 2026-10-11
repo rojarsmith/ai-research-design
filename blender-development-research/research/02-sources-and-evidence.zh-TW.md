@@ -49,6 +49,31 @@
 | E11 | [BuildBot](https://developer.blender.org/docs/handbook/tooling/buildbot/) | 建置與發布套件的工具。 |
 | E12 | [Developer FAQ](https://developer.blender.org/docs/handbook/new_developers/faq/) | 固定週期發布及不成熟功能順延的理由。 |
 | E13 | [USD Manual 5.2](https://docs.blender.org/manual/id/5.2/files/import_export/usd.html) | 特定版本的格式互通與限制。不要把舊手冊限制直接套到新版。 |
+| E14 | [Operators](https://developer.blender.org/docs/features//interface/operators/) | 操作註冊、context、回呼、modal 與 Undo 的責任。 |
+| E15 | [Undo System](https://developer.blender.org/docs/features/core/undo/) | 歷史管理、不同步驟型別與分層實作。 |
+| E16 | [DNA](https://developer.blender.org/docs/features/core/dna/) | 結構描述、SDNA、保存與平台布局的關係。 |
+| E17 | [Blend File Compatibility](https://developer.blender.org/docs/handbook/guidelines/compatibility_handling_for_blend_files/) | 預設值、版本轉換與相容性邊界。 |
+| E18 | [BMesh](https://developer.blender.org/docs/features/objects/mesh/bmesh/) | 非流形拓樸、Loop、鄰接與局部操作。 |
+| E19 | [UI Tests](https://developer.blender.org/docs/handbook/testing/ui/) | 模擬事件、Undo 整合及 modal 等介面測試。 |
+| E20 | [Python Threading Limitations](https://docs.blender.org/api/5.0/info_gotchas_threading.html) | Blender Python API 的執行緒限制，不能等同自研 C++ 工作模型。 |
+| E21 | [Building Blender on Windows](https://developer.blender.org/docs/handbook/building_blender/windows/) | 官方建置 wrapper、相依下載與環境。完整 Blender 本次未建置。 |
+| E22 | [Visual Studio](https://developer.blender.org/docs/handbook/development_environments/visual_studio/) | 專案與 INSTALL target。 |
+| E23 | [Blender v5.2.0 Source](https://github.com/blender/blender/tree/v5.2.0/source/blender) | 核對導讀使用的目錄；不代表已審計所有實作。 |
+
+## C++ 學習工具與教材來源
+
+| 編號 | 來源 | 支持的範圍 |
+| --- | --- | --- |
+| T01 | [CMake Target Commands](https://cmake.org/cmake/help/latest/guide/tutorial/In-Depth%20CMake%20Target%20Commands.html) | target 的語言標準與依賴管理。 |
+| T02 | [Dear ImGui Backends](https://github.com/ocornut/imgui/blob/master/docs/BACKENDS.md) | 平台 backend 與繪圖 backend 的分工。 |
+| T03 | [Dear ImGui Getting Started](https://github.com/ocornut/imgui/wiki/Getting-Started) | 整合步驟與輸入捕捉。 |
+| T04 | [SDL3 OpenGL Example](https://github.com/ocornut/imgui/blob/master/examples/example_sdl3_opengl3/main.cpp) | C++ 桌面練習的既有整合入口；本次沒有編譯 GUI 範例。 |
+| T05 | [SDL GL Context](https://wiki.libsdl.org/SDL3/SDL_GL_CreateContext) | Windows 函式載入與 context 要求。 |
+| T06 | [GLM](https://github.com/g-truc/glm/blob/master/manual.md) | 向量及矩陣工具的教材入口。閱讀手冊後另行固定實作使用的版本。 |
+| T07 | [glTF Specification](https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html) | 節點、網格、變換與材質互通的具體規格。 |
+| T08 | [PBRT Fourth Edition](https://pbr-book.org/4ed/) | 幾何、取樣、光傳輸與渲染器實作教材。 |
+
+新增的工程架構和階段安排屬於教學設計，不是 Blender 的官方開發路線。附帶 C++ 範例由本專案自行實作，並在本機完成核心工作流程測試；其簡化範圍與未提供的產品能力見範例說明。
 
 ## 製作與資金來源
 

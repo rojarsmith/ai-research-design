@@ -10,6 +10,8 @@
 
 延伸閱讀：[工程與製作流程](research/01-engineering-and-production.zh-TW.md)、[來源與證據判讀](research/02-sources-and-evidence.zh-TW.md)。
 
+想自己開發 C++ 桌面軟體，可先讀[從零建立大型 3D 軟體的工程架構](research/03-build-large-3d-software.zh-TW.md)，按[實作學習路線](research/04-cpp-learning-roadmap.zh-TW.md)逐步完成，再對照[Blender 原始碼導讀](research/05-reading-blender-source.zh-TW.md)。另附可建置的[C++ 小型編輯器核心](examples/mini-editor-core/README.zh-TW.md)。
+
 ## 最早的起點是工作室的製作需求
 
 Ton Roosendaal 在 1989 年成立荷蘭動畫工作室 NeoGeo。Blender 最初是工作室的內部工具，承接既有工具與經驗，包括 Amiga 上的光線追蹤程式。因此，「從 0」比較接近從一套自行設計的製作工具起步，背後已有動畫業務、使用者和圖形程式經驗。[官方歷史](https://www.blender.org/about/history/)

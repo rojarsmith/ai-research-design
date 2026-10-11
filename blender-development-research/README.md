@@ -24,3 +24,7 @@ At the research date, the official Blender 5.2 LTS page lists release 5.2.2 date
 | [Complete report](README.zh-TW.md) | History, technical transitions, funding, production evidence and limits |
 | [Engineering and production](research/01-engineering-and-production.zh-TW.md) | Data architecture, extensibility, team workflows and quality controls |
 | [Sources and evidence](research/02-sources-and-evidence.zh-TW.md) | References, claim boundaries and historical ambiguities |
+| [Building a large 3D application](research/03-build-large-3d-software.zh-TW.md) | C++ architecture, ownership, commands, undo, evaluation, rendering, files and concurrency |
+| [C++ learning roadmap](research/04-cpp-learning-roadmap.zh-TW.md) | Incremental editor milestones with acceptance conditions |
+| [Reading Blender source](research/05-reading-blender-source.zh-TW.md) | Follow an operation through a fixed Blender version |
+| [Runnable C++ core](examples/mini-editor-core/README.zh-TW.md) | Standard-library example with shared meshes, commands, history, serialization and workflow tests |
