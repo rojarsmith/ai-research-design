@@ -12,6 +12,7 @@
 | VPS 上的 OpenRouter 用量平台 | 快速部署方案、上游授權、API Key、預付額度、帳務、成本試算與驗收 | [Main report](openrouter-vps-token-platform/README.md) | [主報告](openrouter-vps-token-platform/README.zh-TW.md) |
 | SSL.com OV Code Signing 驗證 | 台灣公司登記、第三方地址及電話資料、上傳 PDF 與回撥準備 | [Main report](code-signing-research/README.md) | [主報告](code-signing-research/README.zh-TW.md) |
 | 台灣居民經營美國公司 | 組織與州別方案、準備、台美稅務、初期及年度成本、維護行事曆與老闆手冊；僅公開研究 | [English overview](us-company-from-taiwan/README.md) | [完整攻略](us-company-from-taiwan/README.zh-TW.md) |
+| Blender 研發歷程 | 起步、開源轉型、架構、製作回饋、經費與商業成熟度 | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
 
 ## 主要文件
 
@@ -33,6 +34,7 @@
 | `multi-asset-trading-platform/docs/adr/` | 架構決策紀錄 |
 | `openrouter-vps-token-platform/research/` | 可行性、部署、帳務與來源資料 |
 | `us-company-from-taiwan/research/` | 台灣居民經營美國公司的通用研究；私人個案資料保存在 Git 之外 |
+| `blender-development-research/research/` | Blender 工程、製作流程、參考來源與證據範圍 |
 
 ## 閱讀與語言慣例
 
@@ -40,6 +42,6 @@
 2. 再依延伸研究與決策紀錄查看證據及實作細節。
 3. 解讀版本、價格與條款時，以報告標示的研究日期為準；實作前重新查核可能變動的資訊。
 
-文件通常提供英文與對應的 `*.zh-TW.md` 繁體中文版，各語言導覽連至同語言文件。美國公司經營攻略以繁體中文為完整版本，英文入口明示為概要。
+文件通常提供英文與對應的 `*.zh-TW.md` 繁體中文版，各語言導覽連至同語言文件。美國公司經營攻略與 Blender 研究以繁體中文為完整版本，英文入口明示為概要。
 
 研究以證據與使用者需求為中心，對廠商採用相同查證標準，並區分已記載的功能、估算與建議設計。閱讀建議、工期及成本估算時，應一併考量其假設與限制。
