@@ -15,6 +15,7 @@
 | Blender 研發歷程 | 起步、開源轉型、架構、製作回饋、經費與商業成熟度 | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
 | PC 故障分析與解法 | Windows 事件判讀、依症狀排查、證據蒐集及離線雙語查閱頁 | [Main report](pc-troubleshooting/README.md) | [完整攻略](pc-troubleshooting/README.zh-TW.md) |
 | Claude Startups 申請 | 最新資格與福利、HMI Studio 申請主體評估、Max API 額度與英文詢問草稿 | [English overview](claude-startups-research/README.md) | [完整研究](claude-startups-research/README.zh-TW.md) |
+| 網路交友與婚育規劃 | 高雄與跨國認識管道、平台限制、自介與30天行動、來源與研究紀錄 | [English overview](marriage-and-dating/README.md) | [完整研究](marriage-and-dating/README.zh-TW.md) |
 
 ## 主要文件
 
