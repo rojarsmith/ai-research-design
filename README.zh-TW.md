@@ -8,6 +8,7 @@
 
 | 主題 | 範圍 | 英文 | 繁體中文 |
 | --- | --- | --- | --- |
+| 軟體平台支付整合 | 平台串接方向、支付服務比較框架，以及官方核對的 Stripe 測試卡與驗收情境 | [English overview](payment-integration-research/README.md) | [完整研究](payment-integration-research/README.zh-TW.md) |
 | 多資產交易平台 | 股票、加密貨幣、債券與選擇權的市場資料、分析、回測、券商連線、風控及部署，涵蓋台灣市場 | [Main report](multi-asset-trading-platform/README.md) | [主報告](multi-asset-trading-platform/README.zh-TW.md) |
 | VPS 上的 OpenRouter 用量平台 | 快速部署方案、上游授權、API Key、預付額度、帳務、成本試算與驗收 | [Main report](openrouter-vps-token-platform/README.md) | [主報告](openrouter-vps-token-platform/README.zh-TW.md) |
 | SSL.com OV Code Signing 驗證 | 台灣公司登記、第三方地址及電話資料、上傳 PDF 與回撥準備 | [Main report](code-signing-research/README.md) | [主報告](code-signing-research/README.zh-TW.md) |
@@ -32,6 +33,7 @@
 
 | 目錄 | 內容 |
 | --- | --- |
+| `payment-integration-research/research/` | Stripe 測試卡、來源修正與支付整合驗收情境 |
 | `multi-asset-trading-platform/research/` | 各子系統與市場需求的研究 |
 | `multi-asset-trading-platform/architecture/` | 架構提案、評估與建議設計 |
 | `multi-asset-trading-platform/docs/adr/` | 架構決策紀錄 |

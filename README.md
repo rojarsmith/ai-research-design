@@ -8,6 +8,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 
 | Topic | Scope | English | Traditional Chinese |
 | --- | --- | --- | --- |
+| Software platform payment integration | Platform integration directions, provider comparison framework, and verified Stripe test cards and acceptance scenarios | [English overview](payment-integration-research/README.md) | [完整研究](payment-integration-research/README.zh-TW.md) |
 | Multi-asset trading platform | Market data, analysis, backtesting, broker connectivity, risk controls, and deployment across stocks, crypto, bonds, and options, including Taiwan markets | [Main report](multi-asset-trading-platform/README.md) | [主報告](multi-asset-trading-platform/README.zh-TW.md) |
 | OpenRouter usage platform on a VPS | Rapid deployment options, upstream authorization, API keys, prepaid credits, billing, cost examples, and acceptance checks | [Main report](openrouter-vps-token-platform/README.md) | [主報告](openrouter-vps-token-platform/README.zh-TW.md) |
 | SSL.com OV Code Signing validation | Taiwan company registration, third-party address and telephone records, upload PDFs, and callback preparation | [Main report](code-signing-research/README.md) | [主報告](code-signing-research/README.zh-TW.md) |
@@ -32,6 +33,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 
 | Directory | Contents |
 | --- | --- |
+| `payment-integration-research/research/` | Stripe test cards, source corrections, and payment integration acceptance scenarios |
 | `multi-asset-trading-platform/research/` | Research by subsystem and market requirements |
 | `multi-asset-trading-platform/architecture/` | Architecture proposals, evaluation, and recommended design |
 | `multi-asset-trading-platform/docs/adr/` | Architecture decision records |
