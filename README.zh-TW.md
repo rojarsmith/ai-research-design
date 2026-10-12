@@ -14,6 +14,7 @@
 | 台灣居民經營美國公司 | 組織與州別方案、準備、台美稅務、初期及年度成本、維護行事曆與老闆手冊；僅公開研究 | [English overview](us-company-from-taiwan/README.md) | [完整攻略](us-company-from-taiwan/README.zh-TW.md) |
 | Blender 研發歷程 | 起步、開源轉型、架構、製作回饋、經費與商業成熟度 | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
 | PC 故障分析與解法 | Windows 事件判讀、依症狀排查、證據蒐集及離線雙語查閱頁 | [Main report](pc-troubleshooting/README.md) | [完整攻略](pc-troubleshooting/README.zh-TW.md) |
+| Claude Startups 申請 | 最新資格與福利、HMI Studio 申請主體評估、Max API 額度與英文詢問草稿 | [English overview](claude-startups-research/README.md) | [完整研究](claude-startups-research/README.zh-TW.md) |
 
 ## 主要文件
 
