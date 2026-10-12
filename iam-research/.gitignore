@@ -1,0 +1,14 @@
+# Local credentials, private records, backups and logs
+.env
+.env.*
+!.env.example
+private/
+backups/
+exports/
+logs/
+*.dump
+*.sql
+*.pem
+*.key
+*.p12
+*.pfx
