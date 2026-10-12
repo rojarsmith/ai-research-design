@@ -6,6 +6,8 @@ Research checked: 2026-10-12. Scope: Windows PCs; this is a reusable investigati
 
 ## Start with the symptom
 
+For Other devices or Unknown USB Device (Port Reset Failed), use the [Device Manager Bluetooth/USB case guide](device-manager-bluetooth-usb.md). Device Manager problem codes are separate from Event Viewer IDs.
+
 | Symptom | Evidence to collect | First investigation | Success criterion |
 | --- | --- | --- | --- |
 | Blue screen or unexpected restart | Stop code, dump, full 41/6008/1001 events, workload, recent changes | Correlate the actual shutdown time with earlier driver/hardware events; analyze a matching dump | Original workload stable over a comparable observation period |

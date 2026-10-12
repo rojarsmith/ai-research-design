@@ -6,6 +6,8 @@
 
 ## 從症狀出發
 
+Other devices 或 Unknown USB Device (Port Reset Failed) 請見[裝置管理員 Bluetooth／USB 個案指南](device-manager-bluetooth-usb.zh-TW.md)。裝置管理員問題碼與事件檢視器 ID 不同。
+
 | 症狀 | 蒐集證據 | 第一輪調查 | 成功標準 |
 | --- | --- | --- | --- |
 | 藍畫面或非正常重啟 | 停止代碼、傾印、完整 41／6008／1001、負載與近期變更 | 以真正關機時間比對先前驅動／硬體事件，分析相符傾印 | 相當觀察期間內，原負載穩定 |

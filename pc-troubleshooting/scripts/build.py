@@ -13,6 +13,8 @@ Research checked: **2026-10-12**. Primary language: English; a full Traditional 
 
 Open [the offline bilingual guide](dist/index.html) in a browser. It starts in English, remembers your language choice when browser storage is available, and offers search and priority filters. No installation or network service is needed. Read the [general troubleshooting workflow](research/workflow.md) for other PC symptoms and evidence collection.
 
+New case: [Device Manager: four Other devices and USB Port Reset Failed](research/device-manager-bluetooth-usb.md). Check disabled state, missing drivers and USB enumeration separately.
+
 ## Screenshot case: 2026-10-03
 
 The supplied `Screenshot 2026-10-03 183937.png` shows Administrative Events, with a total of **29,756 entries**. That count is neither a crash count nor a count of faults from this incident. We have the list only, not General, XML, EVTX, dumps, Windows build or hardware details. Root cause is **undetermined**. No repair was performed on the PC.
@@ -43,6 +45,8 @@ Priority is proposed triage order, not a probability estimate. Entries below dis
 查核日期：**2026-10-12**。英文為主要語言，另提供完整繁體中文對照。
 
 以瀏覽器開啟[離線雙語查閱頁](dist/index.html)。預設英文；瀏覽器儲存可用時記住語言選擇，並支援搜尋與優先順序篩選。不需安裝或網路服務。其他 PC 症狀及證據蒐集請見[通用排查流程](research/workflow.zh-TW.md)。
+
+新增個案：[裝置管理員：四個 Other devices 與 USB Port Reset Failed](research/device-manager-bluetooth-usb.zh-TW.md)。分開確認停用狀態、缺驅動與 USB 列舉失敗。
 
 ## 截圖個案：2026-10-03
 

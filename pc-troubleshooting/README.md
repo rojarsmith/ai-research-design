@@ -6,6 +6,8 @@ Research checked: **2026-10-12**. Primary language: English; a full Traditional 
 
 Open [the offline bilingual guide](dist/index.html) in a browser. It starts in English, remembers your language choice when browser storage is available, and offers search and priority filters. No installation or network service is needed. Read the [general troubleshooting workflow](research/workflow.md) for other PC symptoms and evidence collection.
 
+New case: [Device Manager: four Other devices and USB Port Reset Failed](research/device-manager-bluetooth-usb.md). Check disabled state, missing drivers and USB enumeration separately.
+
 ## Screenshot case: 2026-10-03
 
 The supplied `Screenshot 2026-10-03 183937.png` shows Administrative Events, with a total of **29,756 entries**. That count is neither a crash count nor a count of faults from this incident. We have the list only, not General, XML, EVTX, dumps, Windows build or hardware details. Root cause is **undetermined**. No repair was performed on the PC.

@@ -6,6 +6,8 @@
 
 以瀏覽器開啟[離線雙語查閱頁](dist/index.html)。預設英文；瀏覽器儲存可用時記住語言選擇，並支援搜尋與優先順序篩選。不需安裝或網路服務。其他 PC 症狀及證據蒐集請見[通用排查流程](research/workflow.zh-TW.md)。
 
+新增個案：[裝置管理員：四個 Other devices 與 USB Port Reset Failed](research/device-manager-bluetooth-usb.zh-TW.md)。分開確認停用狀態、缺驅動與 USB 列舉失敗。
+
 ## 截圖個案：2026-10-03
 
 提供的 `Screenshot 2026-10-03 183937.png` 顯示 Administrative Events，共 **29,756 筆**。這不是崩潰次數，也不是本次事故的故障數。目前只有清單，缺少一般訊息、XML、EVTX、傾印、Windows 組建與硬體資料。根因**尚未確定**，並未在 PC 執行任何修復。
