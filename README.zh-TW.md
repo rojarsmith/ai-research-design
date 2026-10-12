@@ -13,6 +13,7 @@
 | SSL.com OV Code Signing 驗證 | 台灣公司登記、第三方地址及電話資料、上傳 PDF 與回撥準備 | [Main report](code-signing-research/README.md) | [主報告](code-signing-research/README.zh-TW.md) |
 | 台灣居民經營美國公司 | 組織與州別方案、準備、台美稅務、初期及年度成本、維護行事曆與老闆手冊；僅公開研究 | [English overview](us-company-from-taiwan/README.md) | [完整攻略](us-company-from-taiwan/README.zh-TW.md) |
 | Blender 研發歷程 | 起步、開源轉型、架構、製作回饋、經費與商業成熟度 | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
+| PC 故障分析與解法 | Windows 事件判讀、依症狀排查、證據蒐集及離線雙語查閱頁 | [Main report](pc-troubleshooting/README.md) | [完整攻略](pc-troubleshooting/README.zh-TW.md) |
 
 ## 主要文件
 
@@ -35,6 +36,7 @@
 | `openrouter-vps-token-platform/research/` | 可行性、部署、帳務與來源資料 |
 | `us-company-from-taiwan/research/` | 台灣居民經營美國公司的通用研究；私人個案資料保存在 Git 之外 |
 | `blender-development-research/research/` | Blender 工程、製作流程、參考來源與證據範圍 |
+| `pc-troubleshooting/` | PC 故障研究、截圖事件表、排查流程、個案範本與本機工具 |
 
 ## 閱讀與語言慣例
 

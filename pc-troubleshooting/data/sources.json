@@ -1,0 +1,17 @@
+{
+  "power": ["Microsoft: Event 41 troubleshooting", "https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/event-id-41-restart"],
+  "reboots": ["Microsoft: Unexpected reboot investigation", "https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/troubleshoot-unexpected-reboots-system-event-logs"],
+  "automatic-dump": ["Microsoft: Automatic memory dump", "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/automatic-memory-dump"],
+  "dump-types": ["Microsoft: Kernel dump types", "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/varieties-of-kernel-mode-dump-files"],
+  "dcom": ["Microsoft: Documented DCOM 10016 pattern", "https://learn.microsoft.com/en-us/troubleshoot/windows-client/application-management/event-10016-logged-when-accessing-dcom"],
+  "app-crash": ["Microsoft: Application/service crashes", "https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/troubleshoot-application-service-crashing-behavior"],
+  "wer": ["Microsoft: Collecting user-mode dumps", "https://learn.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps"],
+  "etw": ["Microsoft: Event Tracing for Windows", "https://learn.microsoft.com/en-us/windows/win32/etw/event-tracing-portal"],
+  "start-menu": ["Microsoft: Start menu troubleshooting", "https://learn.microsoft.com/en-us/troubleshoot/windows-client/shell-experience/troubleshoot-start-menu-errors"],
+  "hello": ["Microsoft: Windows Hello for Business prerequisites", "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-cloud-kerberos-trust-provision"],
+  "hello-enroll": ["Microsoft: Business enrollment diagnostics", "https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/deploy/hybrid-cert-trust-enroll"],
+  "event-query": ["Microsoft: Get-WinEvent", "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-winevent"],
+  "event-export": ["Microsoft: wevtutil", "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/wevtutil"],
+  "repair": ["Microsoft: DISM/SFC repair workflow", "https://learn.microsoft.com/en-us/troubleshoot/windows-server/installing-updates-features-roles/fix-windows-update-errors"],
+  "openai-sandbox": ["OpenAI: Windows sandbox", "https://learn.chatgpt.com/docs/windows/windows-sandbox"]
+}

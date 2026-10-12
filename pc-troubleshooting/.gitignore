@@ -1,0 +1,4 @@
+evidence/
+*.evtx
+*.dmp
+__pycache__/
