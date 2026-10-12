@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>服務暫時無法使用</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #edf2f7; color: #18283c; }
+    main { width: min(38rem, calc(100% - 4rem)); padding: 2rem; box-sizing: border-box; background: white; border-radius: 1rem; box-shadow: 0 1rem 3rem #18283c18; }
+    .label { color: #526582; font-size: .9rem; letter-spacing: .08em; }
+    h1 { font-size: clamp(1.5rem, 5vw, 2rem); line-height: 1.3; }
+    p { line-height: 1.8; }
+    nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+    a { color: #125ab3; text-underline-offset: .2em; }
+    small { display: block; margin-top: 1.5rem; line-height: 1.7; color: #526582; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111c2b; color: #e8eef7; }
+      main { background: #1b2b40; }
+      .label, small { color: #bbcbe2; }
+      a { color: #8fbfff; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="label">服務狀態</div>
+    <h1>服務暫時無法使用</h1>
+    <p>我們正在維護或處理服務異常，請稍後再試。你可以查看狀態頁取得最新資訊。</p>
+    <p>如果剛才送出訂單或付款後沒有收到結果，請先確認紀錄，避免重複提交。</p>
+    <nav aria-label="後續操作">
+      <a href="">重新整理</a>
+      <a href="https://status.example.net/" target="_blank" rel="noopener noreferrer">查看服務狀態</a>
+    </nav>
+    <small>本頁不會自動重送表單。狀態頁網址為範例，上線前請換成實際網址。</small>
+  </main>
+</body>
+</html>

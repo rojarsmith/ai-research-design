@@ -11,6 +11,7 @@
 | MCU 嵌入式 HMI 生態 | 八項 UI 工具、圖形框架、控制晶片、MCU 與智慧顯示方案；授權、架構與評測方法 | [English overview](mcu-embedded-hmi-research/README.md) | [完整研究](mcu-embedded-hmi-research/README.zh-TW.md) |
 | IAM 比較與 Keycloak 營運 | 11 組 IAM 方案、應用整合、指定 iThome 系列、部署盤點、備份還原與營運 | [English overview](iam-research/README.md) | [完整研究](iam-research/README.zh-TW.md) |
 | 軟體平台支付整合 | 平台串接方向、支付服務比較框架，以及官方核對的 Stripe 測試卡與驗收情境 | [English overview](payment-integration-research/README.md) | [完整研究](payment-integration-research/README.zh-TW.md) |
+| 網站維護與 VPS 故障切換 | 維護訊息、nginx 故障邊界、A 主機與 B 備援、自動切回、成本及驗收 | [English overview](website-availability-research/README.md) | [完整研究](website-availability-research/README.zh-TW.md) |
 | 多資產交易平台 | 股票、加密貨幣、債券與選擇權的市場資料、分析、回測、券商連線、風控及部署，涵蓋台灣市場 | [Main report](multi-asset-trading-platform/README.md) | [主報告](multi-asset-trading-platform/README.zh-TW.md) |
 | VPS 上的 OpenRouter 用量平台 | 快速部署方案、上游授權、API Key、預付額度、帳務、成本試算與驗收 | [Main report](openrouter-vps-token-platform/README.md) | [主報告](openrouter-vps-token-platform/README.zh-TW.md) |
 | SSL.com OV Code Signing 驗證 | 台灣公司登記、第三方地址及電話資料、上傳 PDF 與回撥準備 | [Main report](code-signing-research/README.md) | [主報告](code-signing-research/README.zh-TW.md) |
@@ -38,6 +39,7 @@
 | `iam-research/` | IAM 比較、Keycloak 整合與營運、來源索引、現況盤點及獨立本地實驗環境 |
 | `mcu-embedded-hmi-research/` | MCU HMI 生態、產品能力、系統架構、評測方法與官方來源 |
 | `payment-integration-research/research/` | Stripe 測試卡、來源修正與支付整合驗收情境 |
+| `website-availability-research/` | 網站維護與 A/B 故障切換、成本模型、實作指南、官方來源及 nginx 模板 |
 | `multi-asset-trading-platform/research/` | 各子系統與市場需求的研究 |
 | `multi-asset-trading-platform/architecture/` | 架構提案、評估與建議設計 |
 | `multi-asset-trading-platform/docs/adr/` | 架構決策紀錄 |

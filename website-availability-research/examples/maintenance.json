@@ -1,0 +1,6 @@
+{
+  "error": "service_unavailable",
+  "message": "服務暫時無法使用，請稍後重試。",
+  "retry_after_seconds": 60,
+  "status_url": "https://status.example.net/"
+}
