@@ -36,6 +36,8 @@
 
 ## 參考文章（作為待查核線索）
 
+六篇文章的自行改寫摘要與整理日期見 [網頁資料整理庫](articles/README.zh-TW.md)。
+
 1. [有解理賠：初判表申請指南](https://lipei.com.tw/car-accident-initial-judgment-table-guide-2026)
 2. [有解理賠：修車前證據指南](https://lipei.com.tw/car-accident-repair-before-claim-guide-2026)
 3. [律點通：機車維修費求償](https://easy-law.net/blog/accident/repair/motorcycle-repair-claim/)

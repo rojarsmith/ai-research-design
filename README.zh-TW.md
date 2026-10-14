@@ -50,7 +50,7 @@
 | `blender-development-research/research/` | Blender 工程、製作流程、參考來源與證據範圍 |
 | `pc-troubleshooting/` | PC 故障研究、截圖事件表、排查流程、個案範本與本機工具 |
 | `display-wake-research/` | RTX 5070 Ti 桌機 HDMI/DP 雙螢幕喚醒問題與證據來源 |
-| `motorcycle-accident-research/` | 機車事故個案行動指南、四篇參考文章查核、官方程序與證據清單 |
+| `motorcycle-accident-research/` | 機車事故個案行動指南、六篇參考文章摘要與查核、官方程序與證據清單 |
 
 ## 閱讀與語言慣例
 
