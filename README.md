@@ -26,6 +26,8 @@ Engineering research, feasibility studies, architecture proposals for software p
 
 ## Key Documents
 
+New topic: [LOXJIE A40 USB audio fault research](loxjie-a40-usb-research/README.md), covering local drivers and USB topology, online reports, controlled comparisons, and a read-only evidence collector.
+
 | Document | Purpose |
 | --- | --- |
 | [Trading platform recommended architecture](multi-asset-trading-platform/architecture/recommended-architecture.md) | Proposed architecture and implementation direction |

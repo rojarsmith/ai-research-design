@@ -26,6 +26,8 @@
 
 ## 主要文件
 
+新增主題：[LOXJIE A40 USB 爆音與斷聲研究](loxjie-a40-usb-research/README.zh-TW.md)，包含本機驅動與 USB 拓撲、網路案例、對照測試及唯讀採集工具。
+
 | 文件 | 用途 |
 | --- | --- |
 | [交易平台建議架構](multi-asset-trading-platform/architecture/recommended-architecture.zh-TW.md) | 建議架構與實作方向 |
