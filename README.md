@@ -18,6 +18,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 | Operating a U.S. company from Taiwan | Structures, states, preparation, U.S. and Taiwan taxes, setup and annual budgets, maintenance calendar, and owner operations; public research only | [English overview](us-company-from-taiwan/README.md) | [完整攻略](us-company-from-taiwan/README.zh-TW.md) |
 | Blender development history | Origins, open-source transition, architecture, production feedback, funding, and commercial readiness | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
 | PC troubleshooting and solutions | Windows event analysis, symptom-based diagnostics, evidence collection, and an offline bilingual guide | [Main report](pc-troubleshooting/README.md) | [完整攻略](pc-troubleshooting/README.zh-TW.md) |
+| Desktop display wake research | RTX 5070 Ti, Acer ET322QK, ASUS VG289, Philips HDMI switching, Windows sleep, driver recovery and 20 official references | [English report](display-wake-research/README.md) | [繁體中文研究](display-wake-research/README.zh-TW.md) |
 | Claude Startups applications | Current eligibility and benefits, HMI Studio applicant assessment, Max API credits and English inquiry drafts | [English overview](claude-startups-research/README.md) | [完整研究](claude-startups-research/README.zh-TW.md) |
 | Online dating and family planning | Kaohsiung and international dating channels, platform limits, profiles, a 30-day plan, sources and research log | [English overview](marriage-and-dating/README.md) | [完整研究](marriage-and-dating/README.zh-TW.md) |
 
@@ -47,6 +48,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 | `us-company-from-taiwan/research/` | General research on operating U.S. companies from Taiwan; private case records remain outside Git |
 | `blender-development-research/research/` | Blender engineering, production workflows, references, and evidence boundaries |
 | `pc-troubleshooting/` | PC failure research, screenshot event catalog, diagnostic workflow, case templates and local tools |
+| `display-wake-research/` | RTX 5070 Ti desktop HDMI/DP dual-monitor wake issue and supporting sources |
 
 ## Reading and Language Conventions
 
