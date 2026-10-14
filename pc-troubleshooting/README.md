@@ -2,11 +2,13 @@
 
 # PC troubleshooting and solutions
 
-Research checked: **2026-10-12**. Primary language: English; a full Traditional Chinese counterpart is available.
+Research checked: **2026-10-14**. Primary language: English; a full Traditional Chinese counterpart is available.
 
 Open [the offline bilingual guide](dist/index.html) in a browser. It starts in English, remembers your language choice when browser storage is available, and offers search and priority filters. No installation or network service is needed. Read the [general troubleshooting workflow](research/workflow.md) for other PC symptoms and evidence collection.
 
 New case: [Device Manager: four Other devices and USB Port Reset Failed](research/device-manager-bluetooth-usb.md). Check disabled state, missing drivers and USB enumeration separately.
+
+Storage case: [Kingston boot SSD disappears from BIOS and returns after power removal](cases/2026-10-14-kingston-nvme-dropout.md). Includes the 51°C versus 91°C temperature fields, read-only NVMe findings, two bugchecks and a physical isolation plan. Root cause remains unresolved.
 
 ## Screenshot case: 2026-10-03
 

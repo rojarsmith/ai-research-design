@@ -2,11 +2,13 @@
 
 # PC 故障分析與解決辦法
 
-查核日期：**2026-10-12**。英文為主要語言，另提供完整繁體中文對照。
+查核日期：**2026-10-14**。英文為主要語言，另提供完整繁體中文對照。
 
 以瀏覽器開啟[離線雙語查閱頁](dist/index.html)。預設英文；瀏覽器儲存可用時記住語言選擇，並支援搜尋與優先順序篩選。不需安裝或網路服務。其他 PC 症狀及證據蒐集請見[通用排查流程](research/workflow.zh-TW.md)。
 
 新增個案：[裝置管理員：四個 Other devices 與 USB Port Reset Failed](research/device-manager-bluetooth-usb.zh-TW.md)。分開確認停用狀態、缺驅動與 USB 列舉失敗。
+
+儲存個案：[Kingston 開機 SSD 從 BIOS 消失，斷電才恢復](cases/2026-10-14-kingston-nvme-dropout.zh-TW.md)。包含 51°C 與 91°C 欄位差異、唯讀 NVMe 實測、兩次 bugcheck 及實體交叉排查步驟；根因仍未確定。
 
 ## 截圖個案：2026-10-03
 

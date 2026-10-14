@@ -9,11 +9,13 @@ SOURCES = json.loads((ROOT / 'data/sources.json').read_text(encoding='utf-8'))
 INTRO = {
  'en': '''# PC troubleshooting and solutions
 
-Research checked: **2026-10-12**. Primary language: English; a full Traditional Chinese counterpart is available.
+Research checked: **2026-10-14**. Primary language: English; a full Traditional Chinese counterpart is available.
 
 Open [the offline bilingual guide](dist/index.html) in a browser. It starts in English, remembers your language choice when browser storage is available, and offers search and priority filters. No installation or network service is needed. Read the [general troubleshooting workflow](research/workflow.md) for other PC symptoms and evidence collection.
 
 New case: [Device Manager: four Other devices and USB Port Reset Failed](research/device-manager-bluetooth-usb.md). Check disabled state, missing drivers and USB enumeration separately.
+
+Storage case: [Kingston boot SSD disappears from BIOS and returns after power removal](cases/2026-10-14-kingston-nvme-dropout.md). Includes the 51°C versus 91°C temperature fields, read-only NVMe findings, two bugchecks and a physical isolation plan. Root cause remains unresolved.
 
 ## Screenshot case: 2026-10-03
 
@@ -42,11 +44,13 @@ Priority is proposed triage order, not a probability estimate. Entries below dis
 ''',
  'zh-TW': '''# PC 故障分析與解決辦法
 
-查核日期：**2026-10-12**。英文為主要語言，另提供完整繁體中文對照。
+查核日期：**2026-10-14**。英文為主要語言，另提供完整繁體中文對照。
 
 以瀏覽器開啟[離線雙語查閱頁](dist/index.html)。預設英文；瀏覽器儲存可用時記住語言選擇，並支援搜尋與優先順序篩選。不需安裝或網路服務。其他 PC 症狀及證據蒐集請見[通用排查流程](research/workflow.zh-TW.md)。
 
 新增個案：[裝置管理員：四個 Other devices 與 USB Port Reset Failed](research/device-manager-bluetooth-usb.zh-TW.md)。分開確認停用狀態、缺驅動與 USB 列舉失敗。
+
+儲存個案：[Kingston 開機 SSD 從 BIOS 消失，斷電才恢復](cases/2026-10-14-kingston-nvme-dropout.zh-TW.md)。包含 51°C 與 91°C 欄位差異、唯讀 NVMe 實測、兩次 bugcheck 及實體交叉排查步驟；根因仍未確定。
 
 ## 截圖個案：2026-10-03
 
