@@ -4,6 +4,8 @@ Research checked: **2026-10-14**. The user has identified Acer ET322QK, ASUS VG2
 
 Latest material: [online findings and model-specific investigation](research/01-online-findings.md), [complete Traditional Chinese report](research/01-online-findings.zh-TW.md), [20 first-party references and scope](research/02-sources.zh-TW.md), and [observation template](cases/observation-template.md). No PC settings were changed and no wake tests were performed.
 
+Added: [community reports requiring monitor power/input operations](research/03-community-discussions.md), covering the same Acer model, a related ASUS variant, and RTX 5070 Ti reports. Recurring discussions do not establish failure rates or a shared cause.
+
 ## Priorities after identifying the displays
 
 1. Confirm the Windows+P mode and whether both primary displays are enabled; compare with Philips HDMI disconnected at the GPU.

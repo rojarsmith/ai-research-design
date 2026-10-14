@@ -4,6 +4,8 @@
 
 最新成果：[型號與網路證據完整研究](research/01-online-findings.zh-TW.md) · [20 項第一方來源與適用界線](research/02-sources.zh-TW.md) · [喚醒觀察範本](cases/observation-template.md)。本次是公開資料研究，未更改問題電腦設定或執行喚醒測試。
 
+新增：[社群喚醒與實體電源案例](research/03-community-discussions.zh-TW.md)。包含相同 Acer 型號、相近 ASUS 系列與 RTX 5070 Ti 回報；討論數量不等於故障率，亦不代表相同根因。
+
 ## 納入型號後的優先方向
 
 1. **先確認 Win+P 的使用模式。** Philips 也接著顯卡 HDMI；回到桌面時應確認 Acer/ASUS 都啟用。用拔除 Philips HDMI 的對照隔離第三台設備與切換配置。
