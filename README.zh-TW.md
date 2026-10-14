@@ -8,6 +8,7 @@
 
 | 主題 | 範圍 | 英文 | 繁體中文 |
 | --- | --- | --- | --- |
+| 存讀檔與版本相容性 | 大型軟體與遊戲的存檔架構、資料與內容遷移、安全提交及驗證 | [English overview](save-load-compatibility-research/README.md) | [完整研究](save-load-compatibility-research/README.zh-TW.md) |
 | MCU 嵌入式 HMI 生態 | 八項 UI 工具、圖形框架、控制晶片、MCU 與智慧顯示方案；授權、架構與評測方法 | [English overview](mcu-embedded-hmi-research/README.md) | [完整研究](mcu-embedded-hmi-research/README.zh-TW.md) |
 | IAM 比較與 Keycloak 營運 | 11 組 IAM 方案、應用整合、指定 iThome 系列、部署盤點、備份還原與營運 | [English overview](iam-research/README.md) | [完整研究](iam-research/README.zh-TW.md) |
 | 軟體平台支付整合 | 平台串接方向、支付服務比較框架，以及官方核對的 Stripe 測試卡與驗收情境 | [English overview](payment-integration-research/README.md) | [完整研究](payment-integration-research/README.zh-TW.md) |
@@ -38,6 +39,7 @@
 
 | 目錄 | 內容 |
 | --- | --- |
+| `save-load-compatibility-research/` | 存讀檔架構、公開實作、遷移範例、相容性情境與官方來源 |
 | `iam-research/` | IAM 比較、Keycloak 整合與營運、來源索引、現況盤點及獨立本地實驗環境 |
 | `mcu-embedded-hmi-research/` | MCU HMI 生態、產品能力、系統架構、評測方法與官方來源 |
 | `payment-integration-research/research/` | Stripe 測試卡、來源修正與支付整合驗收情境 |

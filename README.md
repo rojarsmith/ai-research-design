@@ -8,6 +8,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 
 | Topic | Scope | English | Traditional Chinese |
 | --- | --- | --- | --- |
+| Save and load compatibility | Large application and game save architecture, schema evolution, content migration, safe commits and verification | [English overview](save-load-compatibility-research/README.md) | [完整研究](save-load-compatibility-research/README.zh-TW.md) |
 | MCU embedded HMI ecosystem | Eight offerings across UI tools, graphics frameworks, display controllers, MCU platforms and smart displays; licensing, architecture and evaluation | [English overview](mcu-embedded-hmi-research/README.md) | [完整研究](mcu-embedded-hmi-research/README.zh-TW.md) |
 | IAM comparison and Keycloak operations | Eleven IAM product families, application integration, the requested iThome series, deployment inventory, recovery and operations | [English overview](iam-research/README.md) | [完整研究](iam-research/README.zh-TW.md) |
 | Software platform payment integration | Platform integration directions, provider comparison framework, and verified Stripe test cards and acceptance scenarios | [English overview](payment-integration-research/README.md) | [完整研究](payment-integration-research/README.zh-TW.md) |
@@ -38,6 +39,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 
 | Directory | Contents |
 | --- | --- |
+| `save-load-compatibility-research/` | Save/load architecture, public implementations, migration examples, compatibility scenarios and primary sources |
 | `iam-research/` | IAM comparison, Keycloak integration and operations, source index, deployment inventory, and an isolated local lab |
 | `mcu-embedded-hmi-research/` | MCU HMI ecosystem comparison, product capabilities, architecture, evaluation protocol and official sources |
 | `payment-integration-research/research/` | Stripe test cards, source corrections, and payment integration acceptance scenarios |
