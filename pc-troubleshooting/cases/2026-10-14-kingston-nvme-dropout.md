@@ -37,6 +37,19 @@ Both boots also contain **volmgr 161 dump-creation failure**, referring to the v
 
 **A separate D: problem requires attention:** the Toshiba HDWN180 screenshot reports **8 pending sectors**. October logs contain **61 disk Event 7 records** for Harddisk0 and two Disk 0 retry events (153); the current Disk 0 is this Toshiba. Record count is not distinct bad-sector count, and historical disk numbering is not guaranteed. Do not use D: as the sole backup destination. This evidence does not prove it caused Kingston's BIOS disappearance.
 
+## What the Toshiba's eight pending sectors mean
+
+**Current Pending Sector Count (SMART 197 / C5)** counts sectors that the drive could not read reliably and has flagged for further evaluation. Eight sectors does not mean eight damaged files or 8% damage. A later successful read can clear a pending entry; confirmed defective sectors may be remapped to spare storage. Neither outcome guarantees recovery of the original data. [ULINK's SMART 197 definition](https://ulinktechda.zendesk.com/hc/en-us/articles/39980200495123-SMART-197-Current-Pending-Sectors-Count).
+
+The value **8 is from the supplied HWiNFO screenshot**, not a fresh ATA SMART measurement. Together with the repeated disk bad-block records, it warrants protecting the data and planning replacement, but does not establish the affected files or a time until complete failure.
+
+1. **Copy irreplaceable D: files to verified healthy storage first**, then confirm the backup files open. Pause new writes to D: while protecting the data; do not use either suspect drive as the only backup destination.
+2. If copying stalls, reports read errors or the disk makes abnormal noises, avoid repeated retries. For important data without another copy, consider professional recovery rather than continuing experiments on the original disk.
+3. **Do not start with `chkdsk /r`, formatting or a bad-sector repair utility before backup.** With I/O errors, preserve data first and perform recovery/repair on a copy where possible. [GNU ddrescue safety guidance](https://www.gnu.org/software/ddrescue/manual/ddrescue_manual.html).
+4. After protecting the data, arrange replacement or a warranty assessment. For this drive's combination of pending sectors and repeated bad-block events, the recommendation is to retire it from important-data storage. A pending count returning to zero alone does not prove restored reliability.
+
+This is a separate D: reliability issue; no causal link to Kingston disappearing from BIOS has been established. No backup, repair or replacement has been performed by this investigation.
+
 ## Isolation and improvement, in order
 
 1. **Back up irreplaceable C: and D: data to verified healthy storage first.** C: currently uses about 1,492 GiB; E: is a 1 TB Crucial with about 525 GiB free, so it cannot hold a full clone of C:. Selected files may fit. No backup has been performed by this investigation.
