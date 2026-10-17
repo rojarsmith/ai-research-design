@@ -20,6 +20,7 @@ Engineering research, feasibility studies, architecture proposals for software p
 | Blender development history | Origins, open-source transition, architecture, production feedback, funding, and commercial readiness | [English overview](blender-development-research/README.md) | [完整研究](blender-development-research/README.zh-TW.md) |
 | PC troubleshooting and solutions | Windows event analysis, symptom-based diagnostics, evidence collection, and an offline bilingual guide | [Main report](pc-troubleshooting/README.md) | [完整攻略](pc-troubleshooting/README.zh-TW.md) |
 | Desktop display wake research | RTX 5070 Ti, Acer ET322QK, ASUS VG289, Philips HDMI switching, Windows sleep, driver recovery and 20 official references | [English report](display-wake-research/README.md) | [繁體中文研究](display-wake-research/README.zh-TW.md) |
+| Computer graphics practice course | A hands-on path from vectors and software rasterization to a small real-time renderer, with an offline bilingual interactive lesson | [English course](computer-graphics-practice/README.md) | [繁體中文課程](computer-graphics-practice/README.zh-TW.md) |
 | Claude Startups applications | Current eligibility and benefits, HMI Studio applicant assessment, Max API credits and English inquiry drafts | [English overview](claude-startups-research/README.md) | [完整研究](claude-startups-research/README.zh-TW.md) |
 | Online dating and family planning | Kaohsiung and international dating channels, platform limits, profiles, a 30-day plan, sources and research log | [English overview](marriage-and-dating/README.md) | [完整研究](marriage-and-dating/README.zh-TW.md) |
 | Motorcycle accident evidence and claims | Evidence preservation, police records, medical documentation, motorcycle repair and insurance for a two-motorcycle avoidance-crash case | [Case guide](motorcycle-accident-research/README.zh-TW.md) | [繁體中文行動指南](motorcycle-accident-research/README.zh-TW.md) |
@@ -54,6 +55,7 @@ New topic: [LOXJIE A40 USB audio fault research](loxjie-a40-usb-research/README.
 | `blender-development-research/research/` | Blender engineering, production workflows, references, and evidence boundaries |
 | `pc-troubleshooting/` | PC failure research, screenshot event catalog, diagnostic workflow, case templates and local tools |
 | `display-wake-research/` | RTX 5070 Ti desktop HDMI/DP dual-monitor wake issue and supporting sources |
+| `computer-graphics-practice/` | Bilingual, hands-on computer graphics course and runnable browser labs |
 | `motorcycle-accident-research/` | Motorcycle accident case guide, source checks, official procedures and evidence checklist |
 
 ## Reading and Language Conventions
