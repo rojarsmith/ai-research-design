@@ -44,7 +44,7 @@ This is a practical sequence, not a list of topics to memorize. Each milestone a
 
 ## 05 — Move geometry to the GPU
 
-**Build:** port the same cube to WebGL 2. Upload positions and indices; write a vertex shader and fragment shader; animate a matrix.
+**Build:** port the same cube to WebGL 2 first. Upload positions and indices; write a vertex shader and fragment shader; animate a matrix. Then use the optional NVIDIA path below to run a native OpenGL 4.6 version on the GeForce GPU.
 
 **Learn as needed:** graphics context, vertex buffers, vertex attributes, uniforms, shader compilation, interpolation between vertices.
 
@@ -73,6 +73,33 @@ This is a practical sequence, not a list of topics to memorize. Each milestone a
 **Deliver:** source code, a short screen recording or screenshots, and a 1–2 page design note. The note traces a vertex to a displayed fragment, states coordinate and depth conventions, describes one bug you diagnosed, and justifies one quality/performance trade-off.
 
 **Self-review:** a classmate should be able to run the scene, change a control, and understand your pipeline diagram without reading every source file.
+
+## NVIDIA GPU path — RTX 5070 Ti
+
+The CPU triangle lab remains the reference implementation. When you reach the GPU stages, use WebGL 2 for the short setup path, then add a native C++ / OpenGL 4.6 app so NVIDIA's graphics tools can inspect your own frames. This GPU supports OpenGL 4.6 and Vulkan 1.4; NVIDIA's current Nsight Graphics requirements list RTX 50-series GPUs and support OpenGL and Vulkan. See [RTX 5070 family specs](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/) and [Nsight Graphics requirements](https://developer.nvidia.com/nsight-graphics/get-started) before setup.
+
+**Hands-on sequence:**
+
+1. Confirm the app is running on the RTX 5070 Ti and record the driver/API information.
+2. Capture one frame in Nsight Graphics. Inspect draw calls, vertex input, shader stages, textures, render targets, and depth state.
+3. Change a shader or a resource and capture again. Explain how the change appears in the frame and whether it affects image quality or frame time.
+4. Use a GPU trace or shader profiler to compare one deliberately simple workload with one heavier workload. Treat the capture as evidence, not as a complete model of the chip.
+5. **Optional compute bridge:** write a CUDA image filter and compare it with a fragment-shader version. Use this to study thread execution and memory movement; CUDA is general-purpose GPU compute, not a replacement for the graphics pipeline.
+6. **Optional advanced extension:** add Vulkan ray queries or ray-traced shadows after the conventional depth, material, and shadow stages are understood.
+
+Exact Nsight features vary by release, API, driver, and GPU. Keep the first renderer API-neutral at the concept level; use NVIDIA-specific captures only for diagnosing the actual GeForce implementation.
+
+## Hardware thread — understand what runs where
+
+Study these ideas alongside the milestones above. The goal is to explain the visible performance effects of the GPU's execution and memory model, not to memorize one vendor's chip diagram or learn circuit design.
+
+- **Pipeline mapping (milestones 03–05):** distinguish programmable shader work from pipeline stages such as primitive assembly, rasterization, depth/stencil, blending, and texture sampling. Connect each visible feature to the stage that produces it.
+- **Parallel execution (milestones 05–06):** understand why many vertex or fragment invocations can run in parallel; learn SIMD/SIMT, execution groups, latency hiding, and branch divergence. Treat exact group widths and scheduling as hardware-specific details.
+- **Memory and data movement (milestones 05–07):** distinguish registers, caches, texture sampling, device memory capacity/bandwidth, and CPU↔GPU uploads/readbacks. Predict when a scene is limited by arithmetic, memory traffic, transfers, or synchronization.
+- **Pixel and display path (milestones 01, 04, 07):** connect framebuffer formats, depth precision, blending and color space to storage and output. Learn at a high level how a rendered frame reaches a display; refresh rate and scanout details are optional at first.
+- **Measure before optimizing (milestones 07–08):** compare frame time while changing resolution, overdraw, shader work, mesh count, and texture size one at a time. Form a bottleneck hypothesis and use an available browser/GPU profiler or controlled comparison to test it. Hardware counters and vendor tools are optional extensions.
+
+**Hardware checkpoints:** draw a pipeline diagram and label which work is programmable; explain why GPUs favor lots of parallel work over fast single-thread response; identify one bandwidth-heavy and one compute-heavy scene; show evidence for one bottleneck and one change that improved frame time. Do not infer the bottleneck from utilization percentage alone.
 
 ## Suggested study sessions
 

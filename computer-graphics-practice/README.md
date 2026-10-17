@@ -28,6 +28,10 @@ No graphics card setup, engine, package manager, or prior graphics course is req
 
 The detailed milestone-by-milestone build plan is in [`SYLLABUS.md`](SYLLABUS.md). Lab 01 is implemented in this directory; later milestones are the planned course sequence to build as you progress.
 
+Hardware is part of the course too: a thread woven through the labs covers pipeline stages, GPU parallel execution, memory and CPU/GPU data movement, and evidence-based performance diagnosis. The browser labs provide a low-friction start. The NVIDIA path adds a native OpenGL renderer and Nsight Graphics frame analysis on your RTX 5070 Ti; CUDA image processing and Vulkan ray tracing are optional extensions. It stays at the level useful for graphics programming; circuit design is out of scope.
+
+The RTX 5070 Ti supports Vulkan 1.4 and OpenGL 4.6 according to NVIDIA's [GeForce RTX 5070 family specifications](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5070-family/). NVIDIA lists RTX 50-series cards and OpenGL / Vulkan among [Nsight Graphics' supported hardware and APIs](https://developer.nvidia.com/nsight-graphics/get-started); consult the current page for installation requirements.
+
 Suggested pace: 2–4 hours per stage. Spend most of each session changing code and inspecting output; use the concept notes to explain what you observe.
 
 ## Working loop

@@ -28,6 +28,10 @@
 
 逐階段的建置計畫請見 [`SYLLABUS.zh-TW.md`](SYLLABUS.zh-TW.md)。目前目錄已實作第 01 個實驗；後續階段是隨學習逐步完成的課程路線。
 
+課程也會穿插硬體知識：渲染管線各階段、GPU 平行執行、記憶體與 CPU/GPU 資料搬運，以及以證據診斷效能。瀏覽器實驗方便起步；NVIDIA 實作路線會加入原生 OpenGL 渲染器，並用 Nsight Graphics 擷取和分析 RTX 5070 Ti 上的影格。CUDA 影像處理與 Vulkan 光線追蹤是選修延伸，不會把 CUDA 當成圖形管線本身。
+
+依 NVIDIA 的 [GeForce RTX 5070 系列規格](https://www.nvidia.com/zh-tw/geforce/graphics-cards/50-series/rtx-5070-family/)，RTX 5070 Ti 支援 Vulkan 1.4 和 OpenGL 4.6。NVIDIA 的 [Nsight Graphics 支援清單](https://developer.nvidia.com/nsight-graphics/get-started)列出 RTX 50 系列與 OpenGL／Vulkan；安裝前請查看最新系統需求。
+
 建議每階段投入 2–4 小時。每次以修改程式和觀察結果為主，再用概念筆記解釋觀察到的現象。
 
 ## 每次實驗的流程
